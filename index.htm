@@ -86,7 +86,7 @@
         }
         strong{
             font-family: 'Righteous', cursive;
-            padding: 20px;
+            padding: 10px;
             text-align: center;
             color: darkorange;
             background-color: white;
@@ -100,16 +100,37 @@
             margin: 30px;
             border-radius: 20%;
         }
-        #match1{
+        .match1{
+            margin: 10px;
+            text-align: center;
             float: left;
             padding: 10px;
+            width: 50%;
+            background-color: black;
+            color: deeppink;            
+            border-radius: 20%;
+            border: 3px groove deeppink;
         }
-        #match2{
+        .match2{
+            margin: 10px;
+            text-align: center;
             float: right;
+            padding: 10px;
+            width: 50%;
+            background-color: black;
+            color: lawngreen;
+            border-radius: 20%;
+            border: 3px groove lawngreen;
         }
         .matches{
             display: flex;
             flex-direction: row;
+        }
+        #score{
+            background-color: black;
+            margin-right: 25%;
+            margin-left: 25%;
+            padding: 16px;
         }
         @media screen and (max-width:500px){
             #matchday{
@@ -151,43 +172,53 @@
             <strong>MATCHDAY <big>1</big></strong>
             <div class="matches">
                 <div class="match1">
-                    <i id="player"></i>
+                    <b id="player">RAYYAN TITANS</b>
                     <div id="score">
-                        
+                       <img src="4.png" alt="4" height="52px" width="52px">
+                       <img src="-.png" alt="-" height="40px" width="52px">
+                       <img src="4.png" alt="4" height="52px" width="52px">
                     </div>
-                    <i id="player"></i>
+                    <b id="player">DHEERAJ STRIKERS</b>
                 </div>
     
                 <div class="match2">
-                    <i id="player"></i>
+                    <b id="player">AARYAN WARRIORS</b>
                     <div id="score">
-    
+                       <img src="1.png" alt="1" height="52px" width="52px">
+                       <img src="-.png" alt="-" height="40px" width="52px">
+                       <img src="0.png" alt="0" height="52px" width="52px">
                     </div>
-                    <i id="player"></i>
+                    <b id="player">BHAVESH CHALLENGERS</b>
                 </div>
             </div>
+            <br>
         </div>
 
         <div id="matchday">
             <br>
             <strong>MATCHDAY <big>2</big></strong>
             <div class="matches">
-                <div class="match1">
-                    <i id="player"></i>
+                <div class="match2">
+                    <b id="player">BHAVESH CHALLENGERS</b>
                     <div id="score">
-    
+                        <img src="0.png" alt="0" height="52px" width="52px">
+                        <img src="-.png" alt="-" height="40px" width="52px">
+                        <img src="2.png" alt="2" height="52px" width="52px">
                     </div>
-                    <i id="player"></i>
+                    <b id="player">RAYYAN TITANS</b>
                 </div>
     
-                <div class="match2">
-                    <i id="player"></i>
+                <div class="match1">
+                    <b id="player">DHEERAJ STRIKERS</b>
                     <div id="score">
-    
+                       <img src="1.png" alt="1" height="52px" width="52px">
+                       <img src="-.png" alt="-" height="40px" width="52px">
+                       <img src="0.png" alt="0" height="52px" width="52px">
                     </div>
-                    <i id="player"></i>
+                    <b id="player">AARYAN WARRIORS</b>
                 </div>
             </div>
+            <br>
         </div>
 
         <div id="matchday">
@@ -195,25 +226,31 @@
             <strong>MATCHDAY <big>3</big></strong>
             <div class="matches">
                 <div class="match1">
-                    <i id="player"></i>
+                    <b id="player">AARYAN WARRIORS</b>
                     <div id="score">
-    
+                        <img src="2.png" alt="2" height="52px" width="52px">
+                        <img src="-.png" alt="-" height="40px" width="52px">
+                        <img src="1.png" alt="1" height="52px" width="52px">
                     </div>
-                    <i id="player"></i>
+                    <b id="player">RAYYAN TITANS</b>
                 </div>
     
                 <div class="match2">
-                    <i id="player"></i>
+                    <b id="player">BHAVESH CHALLENGERS</b>
                     <div id="score">
-    
+                        <img src="1.png" alt="1" height="52px" width="52px">
+                        <img src="-.png" alt="-" height="40px" width="52px">
+                        <img src="0.png" alt="0" height="52px" width="52px">
                     </div>
-                    <i id="player"></i>
+                    <b id="player">DHEERAJ STRIKERS</b>
                 </div>
             </div>
+            <br>
         </div>
 
+        
 
-
+        <!--ADD NEW MATCHDAY ABOVE THIS LINE..-->
         <br>
     </div>
 </body>
@@ -223,24 +260,29 @@
     SKELETON TO ADD NEW MATCHDAY::
 
 <div id="matchday">
-    <br>
-    <strong>MATCHDAY <big>4</big></strong>
-    <div class="matches">
-    <div class="match1">
-        <i id="player"></i>
-        <div id="score">
+            <br>
+            <strong>MATCHDAY <big>4</big></strong>
+            <div class="matches">
+                <div class="match1">
+                    <b id="player">AARYAN WARRIORS</b>
+                    <div id="score">
+                        <img src="2.png" alt="2" height="52px" width="52px">
+                        <img src="-.png" alt="-" height="40px" width="52px">
+                        <img src="1.png" alt="1" height="52px" width="52px">
+                    </div>
+                    <b id="player">RAYYAN TITANS</b>
+                </div>
     
+                <div class="match2">
+                    <b id="player">BHAVESH CHALLENGERS</b>
+                    <div id="score">
+                        <img src="1.png" alt="1" height="52px" width="52px">
+                        <img src="-.png" alt="-" height="40px" width="52px">
+                        <img src="0.png" alt="0" height="52px" width="52px">
+                    </div>
+                    <b id="player">DHEERAJ STRIKERS</b>
+                </div>
+            </div>
+            <br>
         </div>
-        <i id="player"></i>
-    </div>
-    
-    <div class="match2">
-        <i id="player"></i>
-        <div id="score">
-    
-        </div>
-        <i id="player"></i>
-        </div>
-    </div>
-</div>
 -->
