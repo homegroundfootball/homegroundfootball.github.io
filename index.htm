@@ -7,6 +7,7 @@
     <title>HOME GROUND FOOTBALL LEAGUE⚽⚽</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
         body{
             background: black;
             width: 100%;
@@ -74,11 +75,6 @@
             border-bottom-left-radius: 10%;
             border-bottom-right-radius: 10%;
         }
-        .br{
-            line-height: 10px;     
-            padding: 0;
-            margin: 0;   
-        }
         a{
             font-size: 13px;
             text-decoration: none;
@@ -87,6 +83,33 @@
         }
         .center{
             text-align: center;
+        }
+        strong{
+            font-family: 'Righteous', cursive;
+            padding: 20px;
+            text-align: center;
+            color: darkorange;
+            background-color: white;
+            margin: 10px;
+            border-radius: 20%;
+        }
+        #matchday{
+            display: flex;
+            flex-direction: column;
+            background-color: dodgerblue;
+            margin: 30px;
+            border-radius: 20%;
+        }
+        #match1{
+            float: left;
+            padding: 10px;
+        }
+        #match2{
+            float: right;
+        }
+        .matches{
+            display: flex;
+            flex-direction: row;
         }
     </style>
 </head>
@@ -118,7 +141,101 @@
     <br>
     <div class="block">
         <h2>MATCH HIGHLIGHTS</h2>
-        <div class="br"> </div>
+        <div id="matchday">
+            <br>
+            <strong>MATCHDAY <big>1</big></strong>
+            <div class="matches">
+                <div class="match1">
+                    <i id="player"></i>
+                    <div id="score">
+                        
+                    </div>
+                    <i id="player"></i>
+                </div>
+    
+                <div class="match2">
+                    <i id="player"></i>
+                    <div id="score">
+    
+                    </div>
+                    <i id="player"></i>
+                </div>
+            </div>
+        </div>
+
+        <div id="matchday">
+            <br>
+            <strong>MATCHDAY <big>2</big></strong>
+            <div class="matches">
+                <div class="match1">
+                    <i id="player"></i>
+                    <div id="score">
+    
+                    </div>
+                    <i id="player"></i>
+                </div>
+    
+                <div class="match2">
+                    <i id="player"></i>
+                    <div id="score">
+    
+                    </div>
+                    <i id="player"></i>
+                </div>
+            </div>
+        </div>
+
+        <div id="matchday">
+            <br>
+            <strong>MATCHDAY <big>3</big></strong>
+            <div class="matches">
+                <div class="match1">
+                    <i id="player"></i>
+                    <div id="score">
+    
+                    </div>
+                    <i id="player"></i>
+                </div>
+    
+                <div class="match2">
+                    <i id="player"></i>
+                    <div id="score">
+    
+                    </div>
+                    <i id="player"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+        <br>
     </div>
 </body>
 </html>
+
+<!--
+    SKELETON TO ADD NEW MATCHDAY::
+
+<div id="matchday">
+    <br>
+    <strong>MATCHDAY <big>4</big></strong>
+    <div class="matches">
+    <div class="match1">
+        <i id="player"></i>
+        <div id="score">
+    
+        </div>
+        <i id="player"></i>
+    </div>
+    
+    <div class="match2">
+        <i id="player"></i>
+        <div id="score">
+    
+        </div>
+        <i id="player"></i>
+        </div>
+    </div>
+</div>
+-->
